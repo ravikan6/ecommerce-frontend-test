@@ -1,0 +1,19 @@
+.line-run {
+    position: absolute;
+    bottom: -5px;
+    left: -100%;
+    width: 10%;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #f5460b, transparent);
+    animation: run-line 3s infinite;
+  }
+  
+  @keyframes run-line {
+    0% {
+      left: 0%;
+    }
+    100% {
+      left: 10%;
+    }
+  }
+  
